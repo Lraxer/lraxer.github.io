@@ -194,3 +194,18 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      category: []
+      tags: []
+      published: false
+      math: true
+      img: /assets/img/
+    posts:
+      category: []
+      tags: []
+      published: false
+      math: true
+      img_path: /assets/img/
