@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy", "~> 6.2", ">= 6.2.3"
+gem "jekyll-theme-chirpy", "~> 6.5", ">= 6.5.5"
 
 group :test do
   gem "html-proofer", "~> 4.4"
@@ -24,3 +24,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Create drafts easier
 gem "jekyll-compose", group: [:jekyll_plugins]
+
+gem "json", "~> 2.7"
